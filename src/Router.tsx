@@ -1,8 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
-// import { About } from "./pages/About";
-// import { Home } from "./pages/Home";
-// import { Error } from "./pages/Error";
-// import { Layout } from "./pages/Layout/Layout";
+// ADD HOME HERE
+import { Error } from "./pages/Error";
+import { Layout } from "./pages/Layout";
 
 export const router = createBrowserRouter([
 	{
@@ -10,14 +9,10 @@ export const router = createBrowserRouter([
 		element: <Layout />,
 		errorElement: <Error />,
 		children: [
-			{
-				path: "/",
-				element: <Home />,
-			},
-			{
-				path: "/recepies",
-				element: <About />,
-			},
+			// {
+			// 	path: "/",
+			// 	element: <Home />, // NOT ORKING YET
+			// },
 		],
 	},
 ]);

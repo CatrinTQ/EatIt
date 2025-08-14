@@ -1,15 +1,17 @@
-import './App.css'
+import { Header } from "../src/components/Header/Header";
 
-import { RouterProvider } from 'react-router'
-import { router } from './Router'
+import "./App.css";
+
+import { RouterProvider } from "react-router";
+import { router } from "./Router";
 
 function App() {
-
-  return (
-    <>
-      <RouterProvider router={router}></RouterProvider>
-    </>
-  )
+	return (
+		<>
+			<Header />
+			<RouterProvider router={router}></RouterProvider>
+		</>
+	);
 }
 
-export default App
+export default App;

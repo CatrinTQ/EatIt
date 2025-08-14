@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 interface IRecipe {
-    idMeal: number;
+    idMeal: string;
     strMeal: string;
     strInstructions: string;
 }
@@ -14,9 +14,9 @@ export const Home = () => {
     useEffect(() => {
         const getData = async () => {
             try {
-                const response = await fetch('www.themealdb.com/api/json/v1/1/search.php?f=a');
+                const response = await fetch('https://www.themealdb.com/api/json/v1/1/random.php');
                 const data = await response.json(); 
-                setRecipes(data);
+                setRecipes(data.meals);
             } catch (error) {
                 console.error('Error fetching repos', error);
             } finally {

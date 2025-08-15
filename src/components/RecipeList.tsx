@@ -5,7 +5,7 @@ import "./RecipeList.css";
 export const RecipeList = () => {
     return (
         <>
-          <div>
+          <div className="oneRecipe">
       {recipies.map((recipe, index) => (
         <RecipeCard
           key={index}

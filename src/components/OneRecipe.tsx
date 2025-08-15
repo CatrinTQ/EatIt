@@ -2,6 +2,7 @@
 import { useParams } from "react-router-dom";
 import { recipies } from "../recipeAPI";
 import { RecipeCard } from "./RecipeCard";
+import "./OneRecipe.scss";
 
 export const OneRecipe = () => {
   const { id } = useParams();

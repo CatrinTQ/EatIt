@@ -24,7 +24,7 @@ export const recipies: IRecipe[] = [
         "Blanda pastan med pancetta och äggblandning.",
         "Servera med extra parmesan och peppar."
       ],
-      "img": "https://example.com/spaghetti-carbonara.jpg"
+      "img": "https://img.koket.se/standard-mega/spaghetti-carbonara-5.jpg"
     },
     {
       "title": "Penne Arrabbiata",
@@ -43,7 +43,7 @@ export const recipies: IRecipe[] = [
         "Tillsätt krossade tomater och låt puttra.",
         "Blanda med pastan och toppa med persilja."
       ],
-      "img": "https://example.com/penne-arrabbiata.jpg"
+      "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/03/Penne-Arrabbiata-1-2.jpg"
     },
     {
       "title": "Tagliatelle Alfredo",

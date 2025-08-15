@@ -1,7 +1,6 @@
 #root {
 background-color: #CAEBB6;
-display: flex;
-justify-content: center;
+
 }
 
 h1 {
@@ -13,4 +12,10 @@ h1 {
     font-family: "Italiana";
     font-size: 4rem;
     color: rgb(73, 30, 6);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
 }

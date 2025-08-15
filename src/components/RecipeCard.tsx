@@ -13,11 +13,13 @@ export const RecipeCard = ({ title, description, img, ingredients, instructions 
       <p>{description}</p>
       <img src={img} alt={`Picture of ${title}`} />
       <ul>
+        <h3>Ingredienser:</h3>
         {ingredients.map((step, index) => (
           <li key={index}>{step}</li>
         ))}
       </ul>
       <ol>
+        <h3>Instruktioner:</h3>
         {instructions.map((step, index) => (
           <li key={index}>{step}</li>
         ))}

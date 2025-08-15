@@ -1,9 +1,68 @@
-#root {
+.one-recipe {
+  min-height: calc(100vh - 2rem);
+  padding: 2rem 1rem;
+  max-width: 70vw;
+  margin: 0 auto 4rem;
+
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  text-align: center;
+  color: rgb(73, 30, 6);
+
+  border: 5px double rgb(107, 62, 8);
+
+  h2 {
+    margin: 0.25rem 0 0.5rem;
+    font-family: "Italiana";
+    font-size: clamp(1.6rem, 2vw + 1rem, 2.4rem);
+  }
+
+  > p {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(73, 30, 6);
-    
-    img {
-        width: 300px;
-        height: 300px;
-    }
+    max-width: 720px;
+    margin: 0 auto;
+    opacity: 0.9;
+  }
+
+  img {
+    width: 100%;
+    max-width: 30vw;
+    height: auto;        
+    object-fit: cover;
+    display: block;
+    border-radius: 16px;
+  }
+
+  ul, ol {
+    width: min(100%, 720px);
+    margin: 0.5rem auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 1.25rem;
+    line-height: 1.5;
+  }
+
+  .back-link {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  
+  background: #ecf7e4; 
+  border: 1px solid rgb(107, 62, 8);
+}
+.back-link:hover { 
+  transform: translateY(-1px);
+  text-decoration: underline; 
+}
+.back-link:focus-visible { 
+  outline: 2px solid #2e4816; 
+}
 }

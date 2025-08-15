@@ -1,4 +1,5 @@
 export interface IRecipe {
+    id: number,
     title: string,
     description: string,
     ingredients: string[],
@@ -8,6 +9,7 @@ export interface IRecipe {
 
 export const recipies: IRecipe[] = [
     {
+      "id": 1,
       "title": "Spaghetti Carbonara",
       "description": "Klassisk italiensk pasta med ägg, parmesan och pancetta.",
       "ingredients": [
@@ -27,6 +29,7 @@ export const recipies: IRecipe[] = [
       "img": "https://img.koket.se/standard-mega/spaghetti-carbonara-5.jpg"
     },
     {
+      "id": 2,
       "title": "Penne Arrabbiata",
       "description": "Het pastarätt med tomat och chili.",
       "ingredients": [
@@ -46,6 +49,7 @@ export const recipies: IRecipe[] = [
       "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/03/Penne-Arrabbiata-1-2.jpg"
     },
     {
+      "id": 3,
       "title": "Tagliatelle Alfredo",
       "description": "Krämig pasta med smör och parmesan.",
       "ingredients": [
@@ -64,6 +68,7 @@ export const recipies: IRecipe[] = [
       "img": "https://legallyhealthyblonde.com/wp-content/uploads/2024/08/alfredo-featured.jpg"
     },
     {
+      "id": 4,
       "title": "Lasagne Bolognese",
       "description": "Klassisk lasagne med köttfärssås och béchamelsås.",
       "ingredients": [
@@ -83,6 +88,7 @@ export const recipies: IRecipe[] = [
       "img": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_205389/cf_259/lasagne_bolognese.jpg"
     },
     {
+      "id": 5,
       "title": "Fettuccine Pesto",
       "description": "Fräsch pasta med basilika och parmesan.",
       "ingredients": [
@@ -101,6 +107,7 @@ export const recipies: IRecipe[] = [
       "img": "https://sweetcaramelsunday.com/wp-content/uploads/Pesto-Fettucine-130.jpg"
     },
     {
+      "id": 6,
       "title": "Tortellini med Ricotta och Spenat",
       "description": "Fylld pasta med ricotta, spenat och tomatsås.",
       "ingredients": [
@@ -119,6 +126,7 @@ export const recipies: IRecipe[] = [
       "img": "https://receptfavoriter.se/sites/default/files/styles/recipe_4x3/public/tortellini_med_ricotta_spenat_1200_4_0.jpg"
     },
     {
+      "id": 7,
       "title": "Spaghetti Aglio e Olio",
       "description": "Enkel pasta med vitlök, olivolja och chili.",
       "ingredients": [
@@ -137,6 +145,7 @@ export const recipies: IRecipe[] = [
       "img": "https://images.services.kitchenstories.io/UY89c4f471NaK1C-BQ07FGZ_qVA=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R131-final-photo-3-sg.jpg"
     },
     {
+      "id": 8,
       "title": "Pasta Primavera",
       "description": "Pasta med blandade grönsaker och lätt gräddsås.",
       "ingredients": [
@@ -156,6 +165,7 @@ export const recipies: IRecipe[] = [
       "img": "https://images.services.kitchenstories.io/w7kIw5bZaJP6rgq3Zj_HOouUq_U=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/R2572-picnic-final-photo-4x3.jpg"
     },
     {
+      "id": 9,
       "title": "Ravioli med Svamp och Salviasmör",
       "description": "Lyxig pasta med svampfyllning och salviasmör.",
       "ingredients": [

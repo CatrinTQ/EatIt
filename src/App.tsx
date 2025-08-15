@@ -2,7 +2,9 @@ import "./App.css";
 
 import { RouterProvider } from "react-router";
 import { router } from "./Router";
-import { RecipeList } from "./components/RecipeList";
+// import { OneRecipe } from "./components/OneRecipe";
+// import { RecipePage } from "./components/RecipePage";
+
 
 export const App = () => {
 
@@ -10,7 +12,7 @@ export const App = () => {
 	return (
 		<>
 		<RouterProvider router={router}></RouterProvider>
-		<RecipeList />
+		
 		</>
 	);
 

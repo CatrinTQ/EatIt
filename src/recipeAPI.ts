@@ -1,4 +1,5 @@
 export interface IRecipe {
+    id: number,
     title: string,
     description: string,
     ingredients: string[],
@@ -8,6 +9,7 @@ export interface IRecipe {
 
 export const recipies: IRecipe[] = [
     {
+      "id": 1,
       "title": "Spaghetti Carbonara",
       "description": "Klassisk italiensk pasta med ägg, parmesan och pancetta.",
       "ingredients": [
@@ -27,6 +29,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/spaghetti-carbonara.jpg"
     },
     {
+      "id": 2,
       "title": "Penne Arrabbiata",
       "description": "Het pastarätt med tomat och chili.",
       "ingredients": [
@@ -46,6 +49,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/penne-arrabbiata.jpg"
     },
     {
+      "id": 3,
       "title": "Tagliatelle Alfredo",
       "description": "Krämig pasta med smör och parmesan.",
       "ingredients": [
@@ -64,6 +68,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/tagliatelle-alfredo.jpg"
     },
     {
+      "id": 4,
       "title": "Lasagne Bolognese",
       "description": "Klassisk lasagne med köttfärssås och béchamelsås.",
       "ingredients": [
@@ -83,6 +88,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/lasagne-bolognese.jpg"
     },
     {
+      "id": 5,
       "title": "Fettuccine Pesto",
       "description": "Fräsch pasta med basilika och parmesan.",
       "ingredients": [
@@ -101,6 +107,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/fettuccine-pesto.jpg"
     },
     {
+      "id": 6,
       "title": "Tortellini med Ricotta och Spenat",
       "description": "Fylld pasta med ricotta, spenat och tomatsås.",
       "ingredients": [
@@ -119,6 +126,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/tortellini-ricotta-spenat.jpg"
     },
     {
+      "id": 7,
       "title": "Spaghetti Aglio e Olio",
       "description": "Enkel pasta med vitlök, olivolja och chili.",
       "ingredients": [
@@ -137,6 +145,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/spaghetti-aglio-olio.jpg"
     },
     {
+      "id": 8,
       "title": "Pasta Primavera",
       "description": "Pasta med blandade grönsaker och lätt gräddsås.",
       "ingredients": [
@@ -156,6 +165,7 @@ export const recipies: IRecipe[] = [
       "img": "https://example.com/pasta-primavera.jpg"
     },
     {
+      "id": 9,
       "title": "Ravioli med Svamp och Salviasmör",
       "description": "Lyxig pasta med svampfyllning och salviasmör.",
       "ingredients": [

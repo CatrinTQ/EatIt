@@ -1,4 +1,16 @@
+#root {
+background-color: #CAEBB6;
+display: flex;
+justify-content: center;
+}
+
 h1 {
+    .italiana-regular {
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    font-family: "Italiana";
     font-size: 4rem;
-    color: green;
+    color: rgb(73, 30, 6);
 }

@@ -10,6 +10,7 @@ export const RecipeList = () => {
         <RecipeCard
           key={index}
           title={recipe.title}
+          description={recipe.description}
           img={recipe.img}
           ingredients={recipe.ingredients}
           instructions={recipe.instructions}

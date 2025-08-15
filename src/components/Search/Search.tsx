@@ -1,11 +1,15 @@
+import './Search.scss'
+
 export const Search = () => {
 
-    return <>
+
+    return <div className='search-container'>
     <h2>Recept</h2>
-    <label>
-        <input></input>
-        Sök
-    </label>
-    
-    </>
+    <div className='search'>
+        <label>
+            <input></input>
+        </label>
+        <button>Sök</button>
+    </div>
+    </div>
 }

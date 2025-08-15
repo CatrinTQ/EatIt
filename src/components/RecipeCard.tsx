@@ -1,15 +1,19 @@
 type RecipeCardProps = {
-  name: string;
-  image: string;
-  instructions: string;
+  title: string;
+  img: string;
+  instructions: string[];
 };
 
-export const RecipeCard = ({ name, image, instructions }: RecipeCardProps) => {
+export const RecipeCard = ({ title, img, instructions }: RecipeCardProps) => {
   return (
     <>
-      <h2>{name}</h2>
-      <img src={image} alt={`Picture of ${name}`} />
-      <p>{instructions}</p>
+      <h2>{title}</h2>
+      <img src={img} alt={`Picture of ${title}`} />
+      <ol>
+        {instructions.map((step, index) => (
+          <li key={index}>{step}</li>
+        ))}
+      </ol>
     </>
   );
 };

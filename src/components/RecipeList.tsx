@@ -1,5 +1,6 @@
 import { recipies } from "../recipeAPI"
 import { RecipeCard } from "./RecipeCard"
+import "./RecipeList.css";
 
 export const RecipeList = () => {
     return (
@@ -10,6 +11,7 @@ export const RecipeList = () => {
           key={index}
           title={recipe.title}
           img={recipe.img}
+          ingredients={recipe.ingredients}
           instructions={recipe.instructions}
         />
       ))}

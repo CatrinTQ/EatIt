@@ -61,7 +61,7 @@ export const recipies: IRecipe[] = [
         "Rör ner parmesan och krydda.",
         "Blanda med pastan och servera."
       ],
-      "img": "https://example.com/tagliatelle-alfredo.jpg"
+      "img": "https://legallyhealthyblonde.com/wp-content/uploads/2024/08/alfredo-featured.jpg"
     },
     {
       "title": "Lasagne Bolognese",
@@ -80,7 +80,7 @@ export const recipies: IRecipe[] = [
         "Varva sås och plattor i en form.",
         "Toppa med ost och grädda i 200°C i 30 minuter."
       ],
-      "img": "https://example.com/lasagne-bolognese.jpg"
+      "img": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_205389/cf_259/lasagne_bolognese.jpg"
     },
     {
       "title": "Fettuccine Pesto",
@@ -98,7 +98,7 @@ export const recipies: IRecipe[] = [
         "Mixa basilika, pinjenötter, parmesan och olivolja till pesto.",
         "Blanda med pastan och servera."
       ],
-      "img": "https://example.com/fettuccine-pesto.jpg"
+      "img": "https://sweetcaramelsunday.com/wp-content/uploads/Pesto-Fettucine-130.jpg"
     },
     {
       "title": "Tortellini med Ricotta och Spenat",
@@ -116,7 +116,7 @@ export const recipies: IRecipe[] = [
         "Låt puttra och krydda med basilika.",
         "Blanda med tortellinin."
       ],
-      "img": "https://example.com/tortellini-ricotta-spenat.jpg"
+      "img": "https://receptfavoriter.se/sites/default/files/styles/recipe_4x3/public/tortellini_med_ricotta_spenat_1200_4_0.jpg"
     },
     {
       "title": "Spaghetti Aglio e Olio",
@@ -134,7 +134,7 @@ export const recipies: IRecipe[] = [
         "Fräs vitlök och chili i olivolja.",
         "Blanda med pastan och toppa med persilja."
       ],
-      "img": "https://example.com/spaghetti-aglio-olio.jpg"
+      "img": "https://images.services.kitchenstories.io/UY89c4f471NaK1C-BQ07FGZ_qVA=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R131-final-photo-3-sg.jpg"
     },
     {
       "title": "Pasta Primavera",
@@ -153,7 +153,7 @@ export const recipies: IRecipe[] = [
         "Tillsätt grädde och krydda.",
         "Blanda med pastan."
       ],
-      "img": "https://example.com/pasta-primavera.jpg"
+      "img": "https://images.services.kitchenstories.io/w7kIw5bZaJP6rgq3Zj_HOouUq_U=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/R2572-picnic-final-photo-4x3.jpg"
     },
     {
       "title": "Ravioli med Svamp och Salviasmör",
@@ -170,7 +170,7 @@ export const recipies: IRecipe[] = [
         "Smält smör och stek salvia i det.",
         "Blanda med pastan och toppa med parmesan."
       ],
-      "img": "https://example.com/ravioli-svamp-salvia.jpg"
+      "img": "https://karinsspis.wordpress.com/wp-content/uploads/2012/10/20230610_193757.jpg"
     }
   ]
   

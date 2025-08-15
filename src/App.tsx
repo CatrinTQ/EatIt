@@ -1,13 +1,15 @@
-import { Header } from '../src/components/Header/Header'
-import './App.css'
+import { Header } from "../src/components/Header/Header";
 
-function App() {
+import "./App.css";
 
-  return (
-    <>
-      <Header />
-    </>
-  )
-}
+import { RouterProvider } from "react-router";
+import { router } from "./Router";
 
-export default App
+	return (
+		<>
+			<Header />
+			<RouterProvider router={router}></RouterProvider>
+		</>
+	);
+
+export default App;

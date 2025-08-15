@@ -1,5 +1,3 @@
-import { Header } from "../src/components/Header/Header";
-
 import "./App.css";
 
 import { RouterProvider } from "react-router";
@@ -10,8 +8,7 @@ export const App = () => {
 
 	return (
 		<>
-			<Header />
-			<RouterProvider router={router}></RouterProvider>
+		<RouterProvider router={router}></RouterProvider>
 		</>
 	);
 
